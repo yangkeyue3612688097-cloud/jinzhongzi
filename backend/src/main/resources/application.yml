@@ -1,0 +1,57 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3307/aigc_evidence?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.example.backend.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+fisco:
+  node:
+    ip: 127.0.0.1
+    channel-port: 20200
+  group-id: 1
+  sdk-cert-path: /home/ubuntu/ai_block_project/blockchain/nodes/127.0.0.1/sdk
+  sdk-config-path: ${FISCO_SDK_CONFIG_PATH:}
+  private-key: ${FISCO_PRIVATE_KEY:}
+  business-anchor-abi: ${FISCO_BUSINESS_ANCHOR_ABI:classpath:abi/BusinessAnchor.abi.json}
+  contract:
+    evidence-address: ''
+    collaboration-address: ''
+    business-anchor-address: ${FISCO_BUSINESS_ANCHOR_ADDRESS:}
+
+# pending: 证据本地留存，不伪造链上交易；合约接入后改为 fisco
+app:
+  chain:
+    mode: pending
+  public-base-url: http://127.0.0.1:5173
+
+jwt:
+  secret: ${JWT_SECRET:}
+  expiration: 86400000
+
+file:
+  upload-path: /home/ubuntu/ai_block_project/uploads/
+
+logging:
+  level:
+    org.example.backend: debug
+    org.fisco.bcos: info

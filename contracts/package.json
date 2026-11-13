@@ -1,0 +1,29 @@
+{
+  "name": "ai-evidence-chain",
+  "version": "0.2.0",
+  "description": "AIGC 创作可信存证与协作分润系统 · 智能合约层",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "demo": "hardhat run scripts/demo-e2e.js",
+    "gas": "hardhat run scripts/gas-report.js",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node",
+    "score": "node scripts/scoring-engine.js"
+  },
+  "keywords": [
+    "blockchain",
+    "AIGC",
+    "evidence",
+    "profit-sharing",
+    "solidity"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "chai": "4.5.0",
+    "ethers": "6.13.4",
+    "hardhat": "2.19.5",
+    "mocha": "10.8.2"
+  }
+}

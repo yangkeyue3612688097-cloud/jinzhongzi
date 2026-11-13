@@ -1,0 +1,215 @@
+# 项目文件路径总索引
+
+> 自动生成时间：2026-10-31  
+> 根目录：`D:/ai_block_project`  
+> 文件总数：191  
+> 范围：Windows 工作区 `D:/ai_block_project`。WSL 运行时副本不在此清单内。  
+> 已排除：`node_modules`、`target`、`dist`、`.git`、Hardhat `artifacts/cache`、IDE 配置和 `__pycache__`。
+
+## 核心路径速查
+
+- 比赛总纲：[docs/COMPETITION-READINESS.md](D:/ai_block_project/docs/COMPETITION-READINESS.md)
+- 前端入口：[frontend/src/main.js](D:/ai_block_project/frontend/src/main.js)
+- 后端入口：[.staging/backend/src/main/java/org/example/backend/BackendApplication.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/BackendApplication.java)
+- 后端配置：[.staging/backend/src/main/resources/application.yml](D:/ai_block_project/.staging/backend/src/main/resources/application.yml)
+- 业务锚定服务：[.staging/backend/src/main/java/org/example/backend/service/BusinessAnchorService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/BusinessAnchorService.java)
+- FISCO 适配器：[.staging/backend/src/main/java/org/example/backend/chain/FiscoEvidenceChainGateway.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/FiscoEvidenceChainGateway.java)
+- BusinessAnchor 合约：[outputs/contract-v03-inspect/contracts/BusinessAnchor.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/BusinessAnchor.sol)
+- BusinessAnchor 测试：[outputs/contract-v03-inspect/test/BusinessAnchor.test.js](D:/ai_block_project/outputs/contract-v03-inspect/test/BusinessAnchor.test.js)
+- Hardhat 部署记录：[outputs/contract-v03-inspect/deployments/hardhat.json](D:/ai_block_project/outputs/contract-v03-inspect/deployments/hardhat.json)
+- 数据库脚本目录：[.staging/backend/sql](D:/ai_block_project/.staging/backend/sql)
+- ComfyUI 采集器：[scripts/comfyui_collector.py](D:/ai_block_project/scripts/comfyui_collector.py)
+
+## 完整文件清单
+
+- [.staging/backend/docs/chain-adapter.md](D:/ai_block_project/.staging/backend/docs/chain-adapter.md) - 1312 bytes
+- [.staging/backend/pom.xml](D:/ai_block_project/.staging/backend/pom.xml) - 5222 bytes
+- [.staging/backend/sql/init.sql](D:/ai_block_project/.staging/backend/sql/init.sql) - 12421 bytes
+- [.staging/backend/sql/upgrade_20261030_collaboration_agreement.sql](D:/ai_block_project/.staging/backend/sql/upgrade_20261030_collaboration_agreement.sql) - 4339 bytes
+- [.staging/backend/sql/upgrade_20261030_comfyui_order_audit.sql](D:/ai_block_project/.staging/backend/sql/upgrade_20261030_comfyui_order_audit.sql) - 3080 bytes
+- [.staging/backend/sql/upgrade_20261030_competition.sql](D:/ai_block_project/.staging/backend/sql/upgrade_20261030_competition.sql) - 3735 bytes
+- [.staging/backend/sql/upgrade_20261030_generation_evidence.sql](D:/ai_block_project/.staging/backend/sql/upgrade_20261030_generation_evidence.sql) - 2691 bytes
+- [.staging/backend/sql/upgrade_20261031_competition_integrity.sql](D:/ai_block_project/.staging/backend/sql/upgrade_20261031_competition_integrity.sql) - 4825 bytes
+- [.staging/backend/src/main/java/org/example/backend/BackendApplication.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/BackendApplication.java) - 326 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/ChainAnchor.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/ChainAnchor.java) - 1480 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/ChainAnchorRequest.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/ChainAnchorRequest.java) - 1379 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/ChainEncoding.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/ChainEncoding.java) - 4224 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/EvidenceChainGateway.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/EvidenceChainGateway.java) - 702 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/FiscoEvidenceChainGateway.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/FiscoEvidenceChainGateway.java) - 11501 bytes
+- [.staging/backend/src/main/java/org/example/backend/chain/PendingEvidenceChainGateway.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/chain/PendingEvidenceChainGateway.java) - 1216 bytes
+- [.staging/backend/src/main/java/org/example/backend/common/BusinessException.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/common/BusinessException.java) - 374 bytes
+- [.staging/backend/src/main/java/org/example/backend/common/GlobalExceptionHandler.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/common/GlobalExceptionHandler.java) - 802 bytes
+- [.staging/backend/src/main/java/org/example/backend/common/Result.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/common/Result.java) - 747 bytes
+- [.staging/backend/src/main/java/org/example/backend/config/CorsConfig.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/config/CorsConfig.java) - 656 bytes
+- [.staging/backend/src/main/java/org/example/backend/config/FiscoBcosConfig.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/config/FiscoBcosConfig.java) - 948 bytes
+- [.staging/backend/src/main/java/org/example/backend/config/MyBatisPlusConfig.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/config/MyBatisPlusConfig.java) - 1457 bytes
+- [.staging/backend/src/main/java/org/example/backend/config/WebMvcConfig.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/config/WebMvcConfig.java) - 884 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/AiWorkController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/AiWorkController.java) - 3735 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/CollaborationAgreementController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/CollaborationAgreementController.java) - 3758 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/CollaborationController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/CollaborationController.java) - 8371 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/CollaborationInviteController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/CollaborationInviteController.java) - 2127 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/PublicEvidenceController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/PublicEvidenceController.java) - 11314 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/StatisticsController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/StatisticsController.java) - 815 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/UserController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/UserController.java) - 5073 bytes
+- [.staging/backend/src/main/java/org/example/backend/controller/WorkVersionController.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/controller/WorkVersionController.java) - 1818 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/AgreementDraftDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/AgreementDraftDTO.java) - 339 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/AgreementItemDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/AgreementItemDTO.java) - 496 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/CollaborationAgreementVO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/CollaborationAgreementVO.java) - 952 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/CollaboratorDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/CollaboratorDTO.java) - 314 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/ComfyuiImportDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/ComfyuiImportDTO.java) - 834 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/LoginDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/LoginDTO.java) - 282 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/PublicChainVerificationVO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/PublicChainVerificationVO.java) - 621 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/PublicEvidenceVO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/PublicEvidenceVO.java) - 915 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/RegisterDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/RegisterDTO.java) - 411 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/UserVO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/UserVO.java) - 454 bytes
+- [.staging/backend/src/main/java/org/example/backend/dto/WorkDTO.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/dto/WorkDTO.java) - 1325 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/AgreementConfirmation.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/AgreementConfirmation.java) - 708 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/AiWork.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/AiWork.java) - 722 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/AiWorkGeneration.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/AiWorkGeneration.java) - 990 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/ChainAnchorRecord.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/ChainAnchorRecord.java) - 1462 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/Collaboration.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/Collaboration.java) - 1096 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/CollaborationAgreement.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/CollaborationAgreement.java) - 955 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/CollaborationInvite.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/CollaborationInvite.java) - 570 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/Collaborator.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/Collaborator.java) - 552 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/Contribution.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/Contribution.java) - 454 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/Evidence.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/Evidence.java) - 928 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/LicenseOrder.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/LicenseOrder.java) - 820 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/OperationLog.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/OperationLog.java) - 445 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/ProfitRecord.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/ProfitRecord.java) - 894 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/RevenueEvent.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/RevenueEvent.java) - 740 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/SettlementReceipt.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/SettlementReceipt.java) - 1227 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/User.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/User.java) - 745 bytes
+- [.staging/backend/src/main/java/org/example/backend/entity/WorkVersion.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/entity/WorkVersion.java) - 777 bytes
+- [.staging/backend/src/main/java/org/example/backend/interceptor/JwtInterceptor.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/interceptor/JwtInterceptor.java) - 1943 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/AgreementConfirmationMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/AgreementConfirmationMapper.java) - 295 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/AiWorkGenerationMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/AiWorkGenerationMapper.java) - 280 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/AiWorkMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/AiWorkMapper.java) - 251 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/ChainAnchorMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/ChainAnchorMapper.java) - 277 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/CollaborationAgreementMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/CollaborationAgreementMapper.java) - 298 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/CollaborationInviteMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/CollaborationInviteMapper.java) - 289 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/CollaborationMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/CollaborationMapper.java) - 272 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/CollaboratorMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/CollaboratorMapper.java) - 269 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/ContributionMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/ContributionMapper.java) - 268 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/EvidenceMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/EvidenceMapper.java) - 257 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/LicenseOrderMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/LicenseOrderMapper.java) - 268 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/OperationLogMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/OperationLogMapper.java) - 268 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/ProfitRecordMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/ProfitRecordMapper.java) - 269 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/RevenueEventMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/RevenueEventMapper.java) - 268 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/SettlementReceiptMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/SettlementReceiptMapper.java) - 283 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/UserMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/UserMapper.java) - 245 bytes
+- [.staging/backend/src/main/java/org/example/backend/mapper/WorkVersionMapper.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/mapper/WorkVersionMapper.java) - 265 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/AiWorkGenerationService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/AiWorkGenerationService.java) - 381 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/AiWorkService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/AiWorkService.java) - 982 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/BlockchainService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/BlockchainService.java) - 2771 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/BusinessAnchorService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/BusinessAnchorService.java) - 7060 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/CollaborationAgreementService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/CollaborationAgreementService.java) - 953 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/CollaborationInviteService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/CollaborationInviteService.java) - 590 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/CollaborationService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/CollaborationService.java) - 1234 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/EvidenceService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/EvidenceService.java) - 875 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/AiWorkGenerationServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/AiWorkGenerationServiceImpl.java) - 1994 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/AiWorkServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/AiWorkServiceImpl.java) - 7814 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationAgreementServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationAgreementServiceImpl.java) - 19127 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationInviteServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationInviteServiceImpl.java) - 7329 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/CollaborationServiceImpl.java) - 23989 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/EvidenceServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/EvidenceServiceImpl.java) - 10567 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/StatisticsServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/StatisticsServiceImpl.java) - 4796 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/UserServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/UserServiceImpl.java) - 8409 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/impl/WorkVersionServiceImpl.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/impl/WorkVersionServiceImpl.java) - 6464 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/StatisticsService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/StatisticsService.java) - 156 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/UserService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/UserService.java) - 735 bytes
+- [.staging/backend/src/main/java/org/example/backend/service/WorkVersionService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/service/WorkVersionService.java) - 559 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/CertificatePdfBuilder.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/CertificatePdfBuilder.java) - 13474 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/EvidenceHasher.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/EvidenceHasher.java) - 1902 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/EvidencePayloadBuilder.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/EvidencePayloadBuilder.java) - 2736 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/HashUtil.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/HashUtil.java) - 1287 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/JwtUtil.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/JwtUtil.java) - 1712 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/OperationLogger.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/OperationLogger.java) - 1101 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/PdfImageWriter.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/PdfImageWriter.java) - 4415 bytes
+- [.staging/backend/src/main/java/org/example/backend/util/SigningService.java](D:/ai_block_project/.staging/backend/src/main/java/org/example/backend/util/SigningService.java) - 5710 bytes
+- [.staging/backend/src/main/resources/abi/BusinessAnchor.abi.json](D:/ai_block_project/.staging/backend/src/main/resources/abi/BusinessAnchor.abi.json) - 7624 bytes
+- [.staging/backend/src/main/resources/application.yml](D:/ai_block_project/.staging/backend/src/main/resources/application.yml) - 1536 bytes
+- [.staging/backend/src/test/java/org/example/backend/BackendApplicationTests.java](D:/ai_block_project/.staging/backend/src/test/java/org/example/backend/BackendApplicationTests.java) - 221 bytes
+- [.staging/backend/src/test/java/org/example/backend/chain/ChainEncodingTest.java](D:/ai_block_project/.staging/backend/src/test/java/org/example/backend/chain/ChainEncodingTest.java) - 2630 bytes
+- [.staging/backend/src/test/java/org/example/backend/util/EvidenceHasherTest.java](D:/ai_block_project/.staging/backend/src/test/java/org/example/backend/util/EvidenceHasherTest.java) - 1500 bytes
+- [.staging/browser-smoke.mjs](D:/ai_block_project/.staging/browser-smoke.mjs) - 5378 bytes
+- [certificate-test.pdf](D:/ai_block_project/certificate-test.pdf) - 123483 bytes
+- [collab-desktop.png](D:/ai_block_project/collab-desktop.png) - 78495 bytes
+- [collab-mobile.png](D:/ai_block_project/collab-mobile.png) - 35793 bytes
+- [comfyui.err.log](D:/ai_block_project/comfyui.err.log) - 4858 bytes
+- [comfyui.out.log](D:/ai_block_project/comfyui.out.log) - 0 bytes
+- [comfyui-cpu.err.log](D:/ai_block_project/comfyui-cpu.err.log) - 18123 bytes
+- [comfyui-cpu.out.log](D:/ai_block_project/comfyui-cpu.out.log) - 0 bytes
+- [docs/BLOCKCHAIN-COLLABORATION-PHASES.md](D:/ai_block_project/docs/BLOCKCHAIN-COLLABORATION-PHASES.md) - 16368 bytes
+- [docs/COMPETITION-READINESS.md](D:/ai_block_project/docs/COMPETITION-READINESS.md) - 31665 bytes
+- [docs/DEMO-RECORDING.md](D:/ai_block_project/docs/DEMO-RECORDING.md) - 10408 bytes
+- [docs/PRODUCT-AND-IMPLEMENTATION.md](D:/ai_block_project/docs/PRODUCT-AND-IMPLEMENTATION.md) - 24088 bytes
+- [docs/PROJECT-FILE-INDEX.md](D:/ai_block_project/docs/PROJECT-FILE-INDEX.md) - 20979 bytes
+- [frontend/.gitignore](D:/ai_block_project/frontend/.gitignore) - 253 bytes
+- [frontend/index.html](D:/ai_block_project/frontend/index.html) - 381 bytes
+- [frontend/package.json](D:/ai_block_project/frontend/package.json) - 497 bytes
+- [frontend/package-lock.json](D:/ai_block_project/frontend/package-lock.json) - 58562 bytes
+- [frontend/public/favicon.svg](D:/ai_block_project/frontend/public/favicon.svg) - 9522 bytes
+- [frontend/public/icons.svg](D:/ai_block_project/frontend/public/icons.svg) - 5031 bytes
+- [frontend/src/api/index.js](D:/ai_block_project/frontend/src/api/index.js) - 5317 bytes
+- [frontend/src/App.vue](D:/ai_block_project/frontend/src/App.vue) - 611 bytes
+- [frontend/src/assets/hero.png](D:/ai_block_project/frontend/src/assets/hero.png) - 13057 bytes
+- [frontend/src/assets/typescript.svg](D:/ai_block_project/frontend/src/assets/typescript.svg) - 1303 bytes
+- [frontend/src/assets/vite.svg](D:/ai_block_project/frontend/src/assets/vite.svg) - 8709 bytes
+- [frontend/src/components/Header.vue](D:/ai_block_project/frontend/src/components/Header.vue) - 3096 bytes
+- [frontend/src/counter.ts](D:/ai_block_project/frontend/src/counter.ts) - 274 bytes
+- [frontend/src/main.js](D:/ai_block_project/frontend/src/main.js) - 253 bytes
+- [frontend/src/main.ts.bak](D:/ai_block_project/frontend/src/main.ts.bak) - 2464 bytes
+- [frontend/src/router/index.js](D:/ai_block_project/frontend/src/router/index.js) - 2012 bytes
+- [frontend/src/style.css](D:/ai_block_project/frontend/src/style.css) - 5060 bytes
+- [frontend/src/utils/hash.js](D:/ai_block_project/frontend/src/utils/hash.js) - 569 bytes
+- [frontend/src/views/Collaboration.vue](D:/ai_block_project/frontend/src/views/Collaboration.vue) - 33422 bytes
+- [frontend/src/views/Home.vue](D:/ai_block_project/frontend/src/views/Home.vue) - 5629 bytes
+- [frontend/src/views/Invites.vue](D:/ai_block_project/frontend/src/views/Invites.vue) - 2851 bytes
+- [frontend/src/views/LocalGenerate.vue](D:/ai_block_project/frontend/src/views/LocalGenerate.vue) - 23076 bytes
+- [frontend/src/views/Login.vue](D:/ai_block_project/frontend/src/views/Login.vue) - 3625 bytes
+- [frontend/src/views/Profile.vue](D:/ai_block_project/frontend/src/views/Profile.vue) - 7689 bytes
+- [frontend/src/views/Verify.vue](D:/ai_block_project/frontend/src/views/Verify.vue) - 18133 bytes
+- [frontend/src/views/VersionHistory.vue](D:/ai_block_project/frontend/src/views/VersionHistory.vue) - 7388 bytes
+- [frontend/src/views/WorkDetail.vue](D:/ai_block_project/frontend/src/views/WorkDetail.vue) - 16305 bytes
+- [frontend/src/views/WorkUpload.vue](D:/ai_block_project/frontend/src/views/WorkUpload.vue) - 7223 bytes
+- [frontend/tsconfig.json](D:/ai_block_project/frontend/tsconfig.json) - 560 bytes
+- [frontend/vite.config.js](D:/ai_block_project/frontend/vite.config.js) - 440 bytes
+- [frontend-dev.err.log](D:/ai_block_project/frontend-dev.err.log) - 405 bytes
+- [frontend-dev.log](D:/ai_block_project/frontend-dev.log) - 444 bytes
+- [frontend-dev.pid](D:/ai_block_project/frontend-dev.pid) - 7 bytes
+- [outputs/certificate-comfyui-cpu.pdf](D:/ai_block_project/outputs/certificate-comfyui-cpu.pdf) - 117959 bytes
+- [outputs/contract-v03-inspect/contracts/AICreationEvidence.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/AICreationEvidence.sol) - 22598 bytes
+- [outputs/contract-v03-inspect/contracts/AICreationProfitSplit.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/AICreationProfitSplit.sol) - 20231 bytes
+- [outputs/contract-v03-inspect/contracts/base/Security.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/base/Security.sol) - 3811 bytes
+- [outputs/contract-v03-inspect/contracts/BusinessAnchor.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/BusinessAnchor.sol) - 4131 bytes
+- [outputs/contract-v03-inspect/contracts/ContributionMath.sol](D:/ai_block_project/outputs/contract-v03-inspect/contracts/ContributionMath.sol) - 6872 bytes
+- [outputs/contract-v03-inspect/deployments/hardhat.json](D:/ai_block_project/outputs/contract-v03-inspect/deployments/hardhat.json) - 417 bytes
+- [outputs/contract-v03-inspect/docs/部署与交付清单.md](D:/ai_block_project/outputs/contract-v03-inspect/docs/部署与交付清单.md) - 9401 bytes
+- [outputs/contract-v03-inspect/docs/前后端对接指南.md](D:/ai_block_project/outputs/contract-v03-inspect/docs/前后端对接指南.md) - 8256 bytes
+- [outputs/contract-v03-inspect/docs/设计说明与逻辑修正.md](D:/ai_block_project/outputs/contract-v03-inspect/docs/设计说明与逻辑修正.md) - 11071 bytes
+- [outputs/contract-v03-inspect/hardhat.config.js](D:/ai_block_project/outputs/contract-v03-inspect/hardhat.config.js) - 880 bytes
+- [outputs/contract-v03-inspect/package.json](D:/ai_block_project/outputs/contract-v03-inspect/package.json) - 730 bytes
+- [outputs/contract-v03-inspect/package-lock.json](D:/ai_block_project/outputs/contract-v03-inspect/package-lock.json) - 138117 bytes
+- [outputs/contract-v03-inspect/README.md](D:/ai_block_project/outputs/contract-v03-inspect/README.md) - 3964 bytes
+- [outputs/contract-v03-inspect/remix/AICreationSystem_Remix.sol](D:/ai_block_project/outputs/contract-v03-inspect/remix/AICreationSystem_Remix.sol) - 54311 bytes
+- [outputs/contract-v03-inspect/scripts/demo-e2e.js](D:/ai_block_project/outputs/contract-v03-inspect/scripts/demo-e2e.js) - 11142 bytes
+- [outputs/contract-v03-inspect/scripts/deploy.js](D:/ai_block_project/outputs/contract-v03-inspect/scripts/deploy.js) - 2570 bytes
+- [outputs/contract-v03-inspect/scripts/gas-report.js](D:/ai_block_project/outputs/contract-v03-inspect/scripts/gas-report.js) - 3460 bytes
+- [outputs/contract-v03-inspect/scripts/hash-utils.js](D:/ai_block_project/outputs/contract-v03-inspect/scripts/hash-utils.js) - 2117 bytes
+- [outputs/contract-v03-inspect/scripts/scoring-engine.js](D:/ai_block_project/outputs/contract-v03-inspect/scripts/scoring-engine.js) - 15749 bytes
+- [outputs/contract-v03-inspect/test/BusinessAnchor.test.js](D:/ai_block_project/outputs/contract-v03-inspect/test/BusinessAnchor.test.js) - 3817 bytes
+- [outputs/contract-v03-inspect/test/CoreFlow.test.js](D:/ai_block_project/outputs/contract-v03-inspect/test/CoreFlow.test.js) - 19076 bytes
+- [outputs/contract-v03-inspect/test/ScoringIntegration.test.js](D:/ai_block_project/outputs/contract-v03-inspect/test/ScoringIntegration.test.js) - 4809 bytes
+- [scripts/apply_backend_upgrades.sh](D:/ai_block_project/scripts/apply_backend_upgrades.sh) - 587 bytes
+- [scripts/comfyui_collector.py](D:/ai_block_project/scripts/comfyui_collector.py) - 11953 bytes
+- [scripts/download_sd_model.ps1](D:/ai_block_project/scripts/download_sd_model.ps1) - 2182 bytes
+- [scripts/e2e-collaboration.ps1](D:/ai_block_project/scripts/e2e-collaboration.ps1) - 10811 bytes
+- [scripts/rebuild_backend.sh](D:/ai_block_project/scripts/rebuild_backend.sh) - 283 bytes
+- [scripts/smoke-certificate.ps1](D:/ai_block_project/scripts/smoke-certificate.ps1) - 4270 bytes
+- [scripts/start_backend.sh](D:/ai_block_project/scripts/start_backend.sh) - 469 bytes
+- [scripts/stop_backend.sh](D:/ai_block_project/scripts/stop_backend.sh) - 203 bytes
+- [scripts/sync_backend.sh](D:/ai_block_project/scripts/sync_backend.sh) - 274 bytes
+- [scripts/verify-collaboration-ui.mjs](D:/ai_block_project/scripts/verify-collaboration-ui.mjs) - 5633 bytes
+- [verify-desktop.png](D:/ai_block_project/verify-desktop.png) - 85100 bytes
+- [verify-interaction-desktop.png](D:/ai_block_project/verify-interaction-desktop.png) - 95451 bytes
+- [verify-mobile.png](D:/ai_block_project/verify-mobile.png) - 72250 bytes

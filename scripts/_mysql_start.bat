@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --basedir="C:\Program Files\MySQL\MySQL Server 8.0" --datadir="C:\Users\YYDS\WorkBuddy\2026-10-30-20-40-09\mysql-data2" --port=3307 --console

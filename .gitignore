@@ -1,0 +1,64 @@
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.sw?
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*keystore*
+secrets/
+config-local/
+application-local.yml
+application-local.properties
+
+# Runtime data, logs and process files
+logs/
+uploads/
+outputs/
+*.log
+*.pid
+tmp/
+temp/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Java and Maven build output
+target/
+*.class
+*.jar
+*.war
+
+# Hardhat build output
+artifacts/
+cache/
+typechain-types/
+
+# Archives generated for release
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# IDE and test caches
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.nyc_output/
+
